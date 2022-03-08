@@ -12,11 +12,23 @@
     <title>Bsale test</title>
 </head>
 
-<body>
-    <header class="navbar">
+<body id="body">
+    <header class="navbar sticky-top">
         <nav class="navbar navbar-light bg-light">
             <div class="container-fluid" id="top-bar">
-                <a class="navbar-brand">
+                <div class="dropdown">
+                    <button class="dropdown-btn">Menu</button>
+                    <div class="dropdown-content">
+                        <a href="#title">Energeticas</a>
+                        <a href="#title2">Piscos</a>
+                        <a href="#title3">Ron</a>
+                        <a href="#title4">Bebidas</a>
+                        <a href="#title5">Snacks</a>
+                        <a href="#title6">Cervezas</a>
+                        <a href="#title7">Vodka</a>
+                    </div>
+                </div>
+                <a class="navbar-brand" href="#body">
                     <h4>Bsale Test</h4>
                 </a>
                 <div class="container mt-2" id="searchBar-container">
@@ -28,27 +40,54 @@
             </div>
         </nav>
     </header>
-
-
     <div class="container mt">
+        <div id="title">
+
+            <h1>Energeticas</h1>
+            <hr>
+        </div>
         <div class="row" id="items"></div>
     </div>
     <div class="container mt">
+        <div id="title2">
+            <h1>Piscos</h1>
+            <hr>
+        </div>
         <div class="row" id="items2"></div>
     </div>
     <div class="container mt">
+        <div id="title3">
+            <h1>Ron</h1>
+            <hr>
+        </div>
         <div class="row" id="items3"></div>
     </div>
     <div class="container mt">
+        <div id="title4">
+            <h1>Bebidas</h1>
+            <hr>
+        </div>
         <div class="row" id="items4"></div>
     </div>
     <div class="container mt">
+        <div id="title5">
+            <h1>Snacks</h1>
+            <hr>
+        </div>
         <div class="row" id="items5"></div>
     </div>
     <div class="container mt">
+        <div id="title6">
+            <h1>Cervezas</h1>
+            <hr>
+        </div>
         <div class="row" id="items6"></div>
     </div>
     <div class="container mt">
+        <div id="title7">
+            <h1>Vodka</h1>
+            <hr>
+        </div>
         <div class="row" id="items7"></div>
     </div>
 </body>
